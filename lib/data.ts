@@ -11,8 +11,8 @@ export const navLinks = [
 export const services = [
   {
     id: "web-dev",
-    title: "Web Development (MERN)",
-    shortDescription: "Modern, responsive MERN stack applications tailored to your business needs.",
+    title: "Web Development",
+    shortDescription: "Modern, responsive full stack applications tailored to your business needs.",
     fullDescription: "Full-stack web applications built with React, Next.js, Node.js, and MongoDB. We focus on performance, SEO, and user experience.",
     deliverables: ["Responsive Frontend", "Scalable Backend", "Database Integration", "SEO Optimization"],
     whoIsItFor: "Startups and businesses looking for a robust online presence.",
