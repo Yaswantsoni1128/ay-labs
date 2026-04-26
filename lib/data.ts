@@ -86,22 +86,22 @@ export const projects = [
 ];
 
 export const stats = [
-  { label: "Projects Delivered", value: "20+" },
-  { label: "Happy Clients", value: "15+" },
+  { label: "Projects Delivered", value: "3+" },
+  { label: "Happy Clients", value: "2" },
   { label: "Lines of Code", value: "100K+" },
   { label: "Success Rate", value: "99%" },
 ];
 
 export const team = [
   { 
-    name: "Yashwant Soni", 
-    role: "Co-Founder & Lead Engineer", 
-    skill: "Full Stack & AI Architect" 
+    name: "Yaswant", 
+    role: "Chief Executive Officer (CEO)", 
+    skill: "Creative Strategy & Vision" 
   },
   { 
-    name: "Co-Founder Name", 
-    role: "Co-Founder & Creative Lead", 
-    skill: "UI/UX & Product Strategy" 
+    name: "Abhinav", 
+    role: "Chief Technology Officer (CTO)", 
+    skill: "System Architecture & Engineering" 
   },
 ];
 

@@ -124,7 +124,7 @@ export default function Home() {
       </Section>
 
       {/* Why AY Labs */}
-      <Section className="bg-primary text-primary-foreground rounded-[3rem] mx-6">
+      <Section className="bg-muted/30 border border-border rounded-[3rem] mx-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold mb-8">Why Businesses <br /> Choose AY Labs</h2>
@@ -137,7 +137,7 @@ export default function Home() {
                 "Transparent communication and agile process"
               ].map((text) => (
                 <div key={text} className="flex gap-4">
-                  <CheckCircle2 className="w-6 h-6 text-primary-foreground/60 shrink-0" />
+                  <CheckCircle2 className="w-6 h-6 text-primary shrink-0" />
                   <p className="text-lg font-medium">{text}</p>
                 </div>
               ))}
@@ -145,9 +145,9 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-2 gap-4">
             {stats.map((stat) => (
-              <div key={stat.label} className="p-8 rounded-3xl bg-background/10 backdrop-blur-sm border border-white/10 text-center">
-                <h4 className="text-4xl font-bold mb-2">{stat.value}</h4>
-                <p className="text-sm opacity-80 uppercase tracking-widest font-bold">{stat.label}</p>
+              <div key={stat.label} className="p-8 rounded-3xl bg-card border border-border text-center card-hover-effect">
+                <h4 className="text-4xl font-bold mb-2 text-primary">{stat.value}</h4>
+                <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold">{stat.label}</p>
               </div>
             ))}
           </div>
